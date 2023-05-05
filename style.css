@@ -1,0 +1,796 @@
+.header{
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: center;
+    color: white;
+    background-color: black;
+    height: 200px;
+    width: 100vw;
+    max-width: 100%;
+}
+
+.header-list {
+    width: 100%;
+    background-color: black;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+.header-list ul {
+    width: 80%;
+    margin: 0px auto 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+
+  @media screen and (max-width:780px) {
+    .header-list ul {
+        font-size: 10px;
+    }
+}
+  
+  .header-list li {
+    text-align: center;
+    color: #fff;
+  }
+  
+
+.logo{
+    display: flex;
+    /* height: 70px;
+    width: 70px; */
+    justify-content: center;
+    align-items: center;
+}
+
+.logo > img {
+    height: 180px;
+}
+/*
+.logo{
+    height: 100px; /* 画像に合わせた適切な高さに指定 /
+    width: 100px; / 画像に合わせた適切な幅に指定 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }*/
+
+/*
+.header-list{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}*/
+ 
+/*
+
+<<<<<<　header編終了。ここからmainのCSSへ。　>>>>>>
+
+*/
+
+body {
+    background-color: white;
+}
+
+main{
+    background-color: pink;
+    width: 100vw;
+    height: 100%;
+}
+
+.box1{
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    
+    background-color: black;
+}
+
+
+@media screen and (max-width:780px) {
+    .box1 {
+        height: 40vh;
+    }
+}
+
+    
+
+.box2{
+    font-family: 'Neonderthaw', cursive;
+    display: flex;
+    width: 100vw;
+    /*height: 350px;*/
+    padding: 350px 0 350px 0;
+    margin: 0;
+    color: #fff;
+    background-color: black;
+    text-align: center;
+    align-items: flex-end;
+    font-size: 100px;
+
+        color: #fff; /* 白色 */
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de; /* ネオン調の色 */
+}
+
+@media screen and (max-width:780px) {
+    .box2 {
+        font-size: 30px;
+    }
+}
+
+.box3{
+    width: 100%;
+    height: 450px;
+    color: #fff;
+    background-color: black;
+    padding-bottom: 270px;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.menu1{
+    width: 300px;
+    height: 250px;
+    margin-left: 30px;
+    background-color: goldenrod;
+    border: pink 3px solid;
+}
+
+
+
+
+.menu2{
+    
+    
+    width: 300px;
+    height: 250px;
+    background-color: red;
+    border: pink 3px solid;
+}
+.menu3{
+    
+
+    width: 300px;
+    height: 250px;
+    margin-right: 30px;
+    background-color: yellowgreen;
+    border: pink 3px solid;
+}
+
+h3.title{
+    font-size: 40px;
+}
+
+#title_of_box3{
+    text-align: center;
+    padding: 15px;
+    padding-top: 30px;
+    padding-bottom: 150px;
+    font-size: 100px;
+    color: #fff; /* 白色 */
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px greenyellow, 0 0 70px greenyellow, 0 0 80px greenyellow, 0 0 100px greenyellow, 0 0 150px greenyellow; /* ネオン調の色 */
+}
+
+@media screen and (max-width:780px) {
+    #title_of_box3 {
+        font-size: 30px;
+    }
+}
+
+
+.form{
+    
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.three_menus{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 0px;
+    
+}
+
+.master_reserve {
+    background-color: black;
+    height: 700px;
+}
+
+/*
+.master_interview img {
+    margin-right: 50px; 
+    
+  }
+/* 任意のスペース幅に変更可能 */
+
+.interview_kuni {
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    border-radius: 200px
+}
+
+@media screen and (max-width:780px) {
+    .interview_kuni {
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
+    }
+}
+  
+  .master_comment {
+    width: 300px;
+    height: 200px;
+    overflow-y: auto;
+    margin: auto;
+
+  }
+  
+
+#about_master {
+    width: 80vw;
+    height: 100px;
+    margin: 0 auto;
+    padding-top: 30px;
+    font-size: 100px;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    color: #fff; /* 白色 */
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px orangered, 0 0 70px orangered, 0 0 80px orangered, 0 0 100px orangered, 0 0 150px orangered; /* ネオン調の色 */
+}
+
+@media screen and (max-width:780px) {
+    #about_master {
+        font-size: 30px;
+    }
+}
+
+.master_interview {
+    display: flex;
+    background-color:white;
+    width: 50vw;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    border: #333 1px solid;
+}
+
+@media screen and (max-width:780px) {
+    .master_interview {
+        flex-direction: column;
+        width: 350px;
+        height: 350px;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+#reserve_icon {
+    width: 200px;
+    height: 50px;
+    margin-top: 100px;
+    margin-right: 230px;
+    padding: 0;
+
+    border: aqua 5px solid;
+    float: right;
+}
+
+.reserve_form {
+    color: #fff; /* 白色 */
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px red, 0 0 70px red, 0 0 80px red, 0 0 100px red, 0 0 150px red; /* ネオン調の色 */;
+}
+
+
+.gallery_head {
+    height: 650px;
+    width: 300px;
+    background-color: black;
+}
+
+.ul.gallery_head {
+    height: 500px;
+}
+/*
+h3.gallery_title {
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: #fff;
+}*/
+
+.gallery_title_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; 
+    background-color: black;
+  }
+  
+  #gallery_title {
+    font-size: 100px;
+    padding-top: 30px;
+    color: #fff; /* 白色 */
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px blue, 0 0 70px blue, 0 0 80px blue, 0 0 100px blue, 0 0 150px blue; /* ネオン調の色 */
+  }
+
+  @media screen and (max-width:780px) {
+    #gallery_title {
+        font-size: 30px;
+    }
+}
+
+  
+.map_image {
+    height: 100px;
+    float: right;
+    border: 1px #333 solid ;
+}
+
+
+
+  
+/*<<<<<<<<<<メイン終わり　以下からフッターに入ります。>>>>>>>>>>*/
+
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-top: 100px;
+    font-size: 10px;
+}
+
+
+/*
+多分、スクロールで色帰る時に使う
+.scroll-animation {
+    background-color: #fff;
+    color: #333;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    transition: color 0.5s;
+  }
+  
+  .scroll-animation.animated {
+    color: #f00;
+  }
+  */
+  
+
+
+
+
+/*==================================================
+スライダーのためのcss
+===================================*/
+.slider {
+    position:relative;
+      z-index: 1;
+      /*↑z-indexの値をh1のz-indexの値よりも小さくして背景に回す*/
+      margin-top: 10px;
+      background-color: black;
+      width: auto;
+      height: 100vh;/*スライダー全体の縦幅を画面の高さいっぱい（100vh）にする*/
+  }
+
+
+  @media screen and (max-width:780px) {
+    .slider {
+    max-width:100%;
+	height:auto;
+	vertical-align: bottom;/*画像の下にできる余白を削除*/
+    }
+}
+
+	
+
+  /*　背景画像設定　*/
+  
+  /*.slider-item01 {
+      background:url(../img/img_01.jpg);
+  }
+  
+  .slider-item02 {
+      background:url(../img/img_02.jpg);
+  }
+  
+  .slider-item03 {
+      background:url(../img/img_03.jpg);
+  }*/
+
+  .slider-item01 {
+    background-image:url(./img/クニーズBAR制作/body_slideshow.jpg);
+}
+
+.slider-item02 {
+    background-image:url(./img/クニーズBAR制作/body_slideshow2.jpg);
+}
+
+.slider-item03 {
+    background-image:url(./img/クニーズBAR制作/body_slideshow3.jpg);
+}
+  
+  .slider-item {
+      width: 100%;/*各スライダー全体の横幅を画面の高さいっぱい（100%）にする*/
+      height:100vh;/*各スライダー全体の縦幅を画面の高さいっぱい（100vh）にする*/
+      background-repeat: no-repeat;/*背景画像をリピートしない*/
+      background-position: center;/*背景画像の位置を中央に*/
+      background-size: cover;/*背景画像が.slider-item全体を覆い表示*/
+  }
+
+  @media screen and (max-width:780px) {
+    .slider-item {
+        height: 40vh;
+    }
+}
+
+  .slider-item > img{
+    width: 100vw;
+    height: 100vh;
+    object-fit: contain;
+    /* padding: 50px; */
+  }
+
+  @media screen and (max-width:780px) {
+    .slider-item > img {
+        height: 40vh;
+    }
+}
+
+
+@media screen and (max-width:780px) {
+    .slider {
+    max-width:100%;
+	height:auto;
+	vertical-align: bottom;/*画像の下にできる余白を削除*/
+    }
+}
+
+  
+  /*矢印の設定*/
+  
+  .slick-prev, 
+  .slick-next {
+      position: absolute;
+      z-index: 3;
+      top: 42%;
+      cursor: pointer;/*マウスカーソルを指マークに*/
+      outline: none;/*クリックをしたら出てくる枠線を消す*/
+      border-top: 2px solid #fff;/*矢印の色*/
+      border-right: 2px solid #fff;/*矢印の色*/
+      height: 25px;
+      width: 25px;
+  }
+  
+  .slick-prev {/*戻る矢印の位置と形状*/
+      left:2.5%;
+      transform: rotate(-135deg);
+  }
+  
+  .slick-next {/*次へ矢印の位置と形状*/
+      right:2.5%;
+      transform: rotate(45deg);
+  }
+  
+  /*ドットナビゲーションの設定*/
+  
+  /*
+  
+  .slick-dots {
+      position: relative;
+      z-index: 3;
+      text-align:center;
+      margin:-50px 0 0 0;/*ドットの位置*/
+  /*}
+  
+  /*.slick-dots li {
+      display:inline-block;
+      margin:0 5px;
+  }
+  
+  .slick-dots button {
+      color: transparent;
+      outline: none;
+      width:8px;/*ドットボタンのサイズ*/
+      /*height:8px;/*ドットボタンのサイズ*/
+      /*display:block;
+      border-radius:50%;
+      background:#fff;/*ドットボタンの色*/
+  /*}
+  /*
+  .slick-dots .slick-active button{
+      background:#333;/*ドットボタンの現在地表示の色*/
+  /*}
+
+
+
+
+
+
+
+
+  /* アコーディオンのCSS */
+  
+/* .li::marker {
+    display: none;
+} */
+
+/*アコーディオン全体*/
+.accordion-area{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 30%;
+    max-width: 900px;
+    margin:0 auto;
+}
+
+.accordion-area li{
+    margin: 10px 0;
+}
+
+.accordion-area section {
+	border: 1px solid black;
+}
+
+/*アコーディオンタイトル*/
+.title {
+    position: relative;/*+マークの位置基準とするためrelative指定*/
+    cursor: pointer;
+    font-size:1rem;
+    font-weight: normal;
+    padding: 3% 3% 3% 50px;
+    transition: all .5s ease;
+}
+
+/*アイコンの＋と×*/
+.title::before,
+.title::after{
+    position: absolute;
+    content:'';
+    width: 15px;
+    height: 2px;
+    background-color: #333;
+    
+}
+.title::before{
+    top:48%;
+    left: 15px;
+    transform: rotate(0deg);
+    
+}
+.title::after{    
+    top:48%;
+    left: 15px;
+    transform: rotate(90deg);
+
+}
+/*　closeというクラスがついたら形状変化　*/
+.title.close::before{
+	transform: rotate(45deg);
+}
+
+.title.close::after{
+	transform: rotate(-45deg);
+}
+
+/*アコーディオンで現れるエリア*/
+.box {
+    display: none;/*はじめは非表示*/
+    background: gray;
+    font-size: 15px;
+	margin:0 3% 3% 3%;
+    padding: 3%;
+}
+
+
+
+
+
+
+
+/*===モーダル表示のためのcss　*/
+
+.hide-area{/*モーダル表示をする場所をあらかじめ隠す*/
+	/* display: none; */
+}
+
+.modaal-fullscreen .modaal-content-container{/*full画面の色設定*/
+	background: #333;
+	color: #fff;
+	text-align: center;
+}
+
+.modaal-fullscreen .modaal-close{/*ボタンの色、位置*/
+	background:none;
+	right:20px;
+}
+
+/*クローズボタンの×の色変更*/
+.modaal-close:focus:after,
+.modaal-close:focus:before,
+.modaal-close:hover:after,
+.modaal-close:hover:before{
+	background:#666;
+}
+
+/*キャプション*/
+.caption{
+    display: block;
+    padding: 10px 0;
+}
+
+/*===　サムネイル表示のためのcss　*/
+
+.gallery_head{/*ベースになるギャラリーを横並びに*/
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+}
+
+.gallery_head li{
+	width:33.333%;
+    padding: 0 10px;
+list-style:none;
+}
+
+/*画像の横幅を100%にしてレスポンシブ化*/
+img{
+	max-width:100%;
+	height:auto;
+	vertical-align: bottom;/*画像の下にできる余白を削除*/
+}
+
+
+.modal {
+    display: none; /* 初期状態では非表示にする */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 9999;
+}
+
+.modal-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#modal-img {
+    max-width: 80%;
+    max-height: 80%;
+}
+
+
+
+
+/*==================================================
+　5-2-4 MENUがCLOSEに
+===================================*/
+
+/*ボタン外側※レイアウトによってpositionや形状は適宜変更してください*/
+.openbtn{
+	/*ボタン内側の基点となるためrelativeを指定。
+追従するナビゲーションの場合はfixed＋top、rightといった位置をセットで指定*/
+    /*position: fixed; /* 画面に固定 */
+    position: relative;
+    top: 10px; /* 上から10pxの位置に配置 */
+    right: 10px; 
+	background:#D54884;
+	cursor: pointer;
+    width: 50px;
+    height:50px;
+	border-radius: 5px;
+
+}
+
+/*ボタン内側*/
+.openbtn span{
+    display: inline-block;
+    transition: all .4s;/*アニメーションの設定*/
+    position: absolute;
+    left: 14px;
+    height: 2px;
+    border-radius: 5px;
+	background: #fff;
+  	width: 45%;
+  }
+
+
+.openbtn span:nth-of-type(1) {
+	top:13px;	
+}
+
+.openbtn span:nth-of-type(2) {
+	top:19px;
+}
+
+.openbtn span:nth-of-type(3) {
+	top:25px;
+}
+
+.openbtn span:nth-of-type(4) {
+	top: 31px;
+}
+
+.openbtn span:nth-of-type(4)::after {
+	content:"Menu";/*3つ目の要素のafterにMenu表示を指定*/
+	position: absolute;
+	top:5px;
+	left:-2px;
+	color: #fff;
+	font-size: 0.6rem;
+	text-transform: uppercase;
+}
+
+/*activeクラスが付与されると線が回転して×になり、Menu⇒Closeに変更*/
+
+.openbtn.active span:nth-of-type(1) {
+    top: 14px;
+    left: 18px;
+    transform: translateY(6px) rotate(-45deg);
+    width: 30%;
+}
+
+.openbtn.active span:nth-of-type(2) {
+	opacity: 0;
+}
+
+.openbtn.active span:nth-of-type(3){
+    top: 26px;
+    left: 18px;
+    transform: translateY(-6px) rotate(45deg);
+    width: 30%;
+}
+
+.openbtn.active span:nth-of-type(4){
+    top: 38px;
+    left: 18px;
+    transform: translateY(-6px) rotate(45deg);
+    width: 30%;
+}
+
+.openbtn.active span:nth-of-type(4)::after {
+	content:"Close";/*3つ目の要素のafterにClose表示を指定*/
+    transform: translateY(0) rotate(-45deg);
+	top:5px;
+	left:4px;
+}
